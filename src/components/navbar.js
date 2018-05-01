@@ -1,13 +1,15 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 
 
 export default () => (
     <nav className="dt w-100 mw8 center"> 
         <div className="v-mid tc pa3">
-          <a className="f6 fw4 hover-black no-underline black-70 dn dib pv2 ph3" href="/" >About</a> 
-          <a className="f6 fw4 hover-black no-underline black-70 dn dib pv2 ph3" href="/" >Portfolio</a> 
-          <a className="f6 fw4 hover-black no-underline black-70 dn dib pv2 ph3" href="/" >Personal</a> 
+            <ul>
+                <NavLink to='/'><li className="f6 fw4 hover-black no-underline black-70 dn dib pv2 ph3">Home</li></NavLink> 
+                <NavLink to='/about'><li className="f6 fw4 hover-black no-underline black-70 dn dib pv2 ph3">About</li></NavLink>  
+                <NavLink to='/portfolio'><li className="f6 fw4 hover-black no-underline black-70 dn dib pv2 ph3">Portfolio</li></NavLink> 
+          </ul> 
         </div>
       </nav>
 )

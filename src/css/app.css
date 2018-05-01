@@ -1,1 +1,7 @@
 @import "tachyons";
+
+
+
+.appContainer, .homeContainer, .portfolioContainer{
+    z-index: 10;
+}
