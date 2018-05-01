@@ -2,7 +2,7 @@
 
 
 
-.appContainer, .homeContainer, .portfolioContainer{
+.contentContainer, .homeContainer, .portfolioContainer{
     z-index: 10;
 }
 
@@ -11,6 +11,12 @@ ul{
     margin: 0;
 }
 
-.aboutContainer{
+.contentContainer{
     opacity: 0.75;
+}
+
+.active > li{
+    color: black;
+    text-decoration: underline;
+    transform: scale(1.05)
 }
