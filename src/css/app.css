@@ -5,3 +5,8 @@
 .appContainer, .homeContainer, .portfolioContainer{
     z-index: 10;
 }
+
+ul{
+    padding: 0;
+    margin: 0;
+}

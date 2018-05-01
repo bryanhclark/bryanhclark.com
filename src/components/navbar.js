@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom'
 
 export default () => (
     <nav className="dt w-100 mw8 center"> 
-        <div className="v-mid tc pa3">
-            <ul>
+        <div className="v-mid tc">
+            <ul className="h2">
                 <NavLink to='/'><li className="f6 fw4 hover-black no-underline black-70 dn dib pv2 ph3">Home</li></NavLink> 
                 <NavLink to='/about'><li className="f6 fw4 hover-black no-underline black-70 dn dib pv2 ph3">About</li></NavLink>  
                 <NavLink to='/portfolio'><li className="f6 fw4 hover-black no-underline black-70 dn dib pv2 ph3">Portfolio</li></NavLink> 
-          </ul> 
+            </ul> 
         </div>
       </nav>
 )
