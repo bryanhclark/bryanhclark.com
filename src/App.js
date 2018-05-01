@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import Header from './components/header'
 import {Switch, Route} from 'react-router-dom'
 import Home from './components/home'
-import Portfolio from './components/portfolio'
-import About from './components/about'
+import Developer from './components/developer'
+import Gemologist from './components/gemologist'
+import Drummer from './components/drummer'
 import Iceland from './images/iceland.JPG'
 
 
@@ -19,8 +20,9 @@ class App extends Component {
         <Header />
           <Switch>
             <Route exact path="/" component={Home}/>
-            <Route exact path="/about" component={About}/>
-            <Route exact path="/portfolio" component={Portfolio}/>
+            <Route exact path="/developer" component={Developer}/>
+            <Route exact path="/gemologist" component={Gemologist}/>
+            <Route exact path="/drummer" component={Drummer}/>
           </Switch>
       </div>
     );
