@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/header'
-import {Switch, Route} from 'react-router-dom'
+import {Switch, Route, Redirect} from 'react-router-dom'
 import Home from './components/home'
 import Developer from './components/developer'
 import Gemologist from './components/gemologist'
@@ -23,6 +23,7 @@ class App extends Component {
             <Route exact path="/developer" component={Developer}/>
             <Route exact path="/gemologist" component={Gemologist}/>
             <Route exact path="/drummer" component={Drummer}/>
+            <Redirect to="/" />
           </Switch>
       </div>
     );
