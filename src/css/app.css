@@ -1,7 +1,7 @@
 @import "tachyons";
 
 .App{
-    background-position: 50% 50%;
+    background-position: center;
 }
 
 .contentContainer, .homeContainer, .portfolioContainer{
