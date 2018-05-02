@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App vh-100 dt w-100 cover" 
       style={
         {backgroundImage:"url("+Iceland+")",
-        backgroundRepeat: "no-repeat",
+        backgroundPosition: "no-repeat",
         backgroundAttachment: "fixed"}
         }>
         <Header />

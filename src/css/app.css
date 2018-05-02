@@ -1,6 +1,8 @@
 @import "tachyons";
 
-
+.App{
+    background-position: 50% 50%;
+}
 
 .contentContainer, .homeContainer, .portfolioContainer{
     z-index: 10;
