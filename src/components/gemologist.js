@@ -10,6 +10,7 @@ export default ()=> (
             <p className="fw1 ph2"></p>
             <p className="fw1 ph2"></p>
             <p className="fw1 ph2"></p>
+            <p className="fw1 ph2"></p>
         </div>
     </div>
 )
